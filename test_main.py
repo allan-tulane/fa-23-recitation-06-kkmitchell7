@@ -7,6 +7,8 @@ def test_fib_recursive():
     print(counts)
     print(sum(counts))
 
+test_fib_recursive()
+
 def test_fib_top_down():
     n = 10
     fibs = [-1] * (n+1)
